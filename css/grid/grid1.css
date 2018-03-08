@@ -1,0 +1,21 @@
+.grid {
+    display: inline-grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+}
+
+.c12 {
+    grid-column: 1 / span 12;
+}
+
+.c6 {
+    grid-column-end: span 6;
+}
+
+.c4 {
+    grid-column-end: span 4;
+}
+
+.off3 {
+    grid-column-start: 3;
+}
