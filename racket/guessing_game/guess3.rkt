@@ -1,6 +1,7 @@
 #lang racket
 
 ; Have program handle guessing process without human intervention.
+; Modified from the code in Realm of Racket https://nostarch.com/realmofracket
 
 (define lower 1)
 (define upper 100)
