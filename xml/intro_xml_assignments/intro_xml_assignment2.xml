@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Well-formed XML document that uses 2 namespaces, a valid character encoding, 3 or more character entities,
+     2 or more entity references, and CDATA. Created for the Library Juice Academy course Introduction to XML
+     taught by Robert Chavez. -->
+<organisms xmlns:gbif = "http://gbif.org/species" xmlns:wikipedia = "https://en.wikipedia.org/wiki/">
+	<organism>
+		<kingdom>Anamalia</kingdom>
+		<phylum>Chordata</phylum>
+		<class>Aves</class>
+		<order>Passeriformes</order>
+		<gbif:family>Emberizidae</gbif:family>
+		<gbif:genus>Agelaius</gbif:genus>
+		<gbif:species>Agelaius phoeniceus Linnaeus, 1766</gbif:species>
+		<gbif:id>9409198</gbif:id>
+		<wikipedia:family>Icteridae</wikipedia:family>
+		<wikipedia:genus>Agelaius</wikipedia:genus>
+		<wikipedia:species>A. phoeniceus</wikipedia:species>
+		<wikipedia:id>Red-winged_blackbird</wikipedia:id>
+		<wikipedia:description>
+			<![CDATA[<p>The common name for the red-winged blackbird is taken from the mainly black adult male's distinctive red shoulder patches, or <i>epaulets</i>, which are visible when the bird is flying or displaying.<sup id="cite_ref-PetersonRockiesEast_12-0" class="reference"><a href="#cite_note-PetersonRockiesEast-12">[12]</a></sup> At rest, the male also shows a pale yellow wingbar. The female is blackish-brown and paler below. The female is smaller than the male, at 17–18 cm (6.7–7.1 in) long and weighing 41.5 g (1.46 oz), against his length of 22–24 cm (8.7–9.4 in) and weight of 64 g (2.3 oz).<sup id="cite_ref-USGS_13-0" class="reference"><a href="#cite_note-USGS-13">[13]</a></sup> The smallest females may weigh as little as 29 g (1.0 oz) whereas the largest males can weigh up to 82 g (2.9 oz).<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup> Each wing can range from 8.1–14.4 cm (3.2–5.7 in), the tail measures 6.1–10.9 cm (2.4–4.3 in), the <a href="/wiki/Culmen_(bird)" class="mw-redirect" title="Culmen (bird)">culmen</a> measures 1.3–3.2 cm (0.51–1.26 in) and the <a href="/wiki/Tarsus_(skeleton)" title="Tarsus (skeleton)">tarsus</a> measures 2.1 cm (0.83 in).<sup id="cite_ref-jaramillo_11-1" class="reference"><a href="#cite_note-jaramillo-11">[11]</a></sup></p><p>Young birds resemble the female, but are paler below and have buff feather fringes. Both sexes have a sharply pointed bill. The tail is of medium length and is rounded. The eyes, bill, and feet are all black.<sup id="cite_ref-Cornell_15-0" class="reference"><a href="#cite_note-Cornell-15">[15]</a></sup></p><p>The male is unmistakable except in the far west of the US, where the <a href="/wiki/Tricolored_blackbird" title="Tricolored blackbird">tricolored blackbird</a> occurs. Males of that species have a darker red epaulet edged with white, not yellow. Females of tricolored, bicolored, <a href="/wiki/Red-shouldered_blackbird" title="Red-shouldered blackbird">red-shouldered</a> and red-winged blackbirds can be difficult to identify in areas where more than one form occurs. In flight, when the field marks are not easily seen, red-winged can be distinguished from less closely related Icterids such as <a href="/wiki/Common_grackle" title="Common grackle">common grackle</a> and <a href="/wiki/Brown-headed_cowbird" title="Brown-headed cowbird">brown-headed cowbird</a> by its different silhouette and undulating flight.<sup id="cite_ref-jaramillo_11-2" class="reference"><a href="#cite_note-jaramillo-11">[11]</a></sup></p>]]>
+		</wikipedia:description>
+		<wikipedia:distribution>
+			&lt;p&gt;The range of the red-winged blackbird stretches from southern &lt;a href=&quot;/wiki/Alaska&quot; title=&quot;Alaska&quot;&gt;Alaska&lt;/a&gt; to the &lt;a href=&quot;/wiki/Yucatan_peninsula&quot; class=&quot;mw-redirect&quot; title=&quot;Yucatan peninsula&quot;&gt;Yucatan peninsula&lt;/a&gt; in the south, and from the western coast of &lt;a href=&quot;/wiki/California&quot; title=&quot;California&quot;&gt;California&lt;/a&gt; and &lt;a href=&quot;/wiki/Canada&quot; title=&quot;Canada&quot;&gt;Canada&lt;/a&gt; to the east coast of the continent. Red-winged blackbirds in the northern reaches of the range are &lt;a href=&quot;/wiki/Bird_migration&quot; title=&quot;Bird migration&quot;&gt;migratory&lt;/a&gt;, spending winters in the southern United States and &lt;a href=&quot;/wiki/Central_America&quot; title=&quot;Central America&quot;&gt;Central America&lt;/a&gt;. Migration begins in September or October, but occasionally as early as August. In western and Central America, populations are generally non-migratory. &lt;sup id=&quot;cite_ref-Rosenthal_16-0&quot; class=&quot;reference&quot;&gt;&lt;a href=&quot;#cite_note-Rosenthal-16&quot;&gt;[16]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;The red-winged blackbird inhabits open grassy areas. It generally prefers wetlands, and inhabits both freshwater and saltwater &lt;a href=&quot;/wiki/Marsh&quot; title=&quot;Marsh&quot;&gt;marshes&lt;/a&gt;, particularly if &lt;a href=&quot;/wiki/Typha&quot; title=&quot;Typha&quot;&gt;cattail&lt;/a&gt; is present. It is also found in dry upland areas, where it inhabits meadows, prairies, and old fields.&lt;sup id=&quot;cite_ref-Rosenthal_16-1&quot; class=&quot;reference&quot;&gt;&lt;a href=&quot;#cite_note-Rosenthal-16&quot;&gt;[16]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+		</wikipedia:distribution>
+		<wikipedia:names>
+			<wikipedia:name lang="en">Red-wing blackbird</wikipedia:name>
+			<wikipedia:name lang="lkt">wablo¡a</wikipedia:name>
+			<wikipedia:name lang="fr">Carouge à épaulettes</wikipedia:name>			
+  		</wikipedia:names>
+	</organism>
+</organisms>

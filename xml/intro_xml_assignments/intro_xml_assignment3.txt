@@ -1,0 +1,10 @@
+1. /TEI/teiHeader/fileDesc/titleStmt/author
+2. //respStmt/name
+3. //biblFull
+4. //editorialDecl/*
+5. //foreign
+6. //foreign[@lang="lat"]
+7. //div[@type="appendix"]
+8. //div[@type="book"]
+9. //div[@type="poem"]
+10. //div[@type="poem"]/head

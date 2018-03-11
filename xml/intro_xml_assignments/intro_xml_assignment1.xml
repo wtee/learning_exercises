@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ad hoc, well-formed XML document. Loosely modeled on TEI, using Langston Hughes'
+     poem 'Harlem.' Created for the Library Juice Academy course Introduction to XML
+     taught by Robert Chavez. -->
+<work type="poem">
+  <title>Harlem</title>
+  <author>
+    <first_name>Langston</first_name>
+    <last_name>Hughes</last_name>
+  </author>
+  <text>
+    <stanza n="1">
+      <line n="1">What happens to a dream deferred?</line>
+    </stanza>
+    <stanza n="2">
+      <line n="2">Does it dry up</line>
+      <line n="3">like a raisin in the sun?</line>
+      <line n="4">Or fester like a sore—</line>
+      <line n="5">And then run?</line>
+      <line n="6">Or crust and sugar over—</line>
+      <line n="7">like a syrupy sweet?</line>
+    </stanza>
+    <stanza n="3">
+      <line n="8">Maybe it just sags</line>
+      <line n="9">like a heavy load.</line>
+    </stanza>
+    <stanza n="4">
+      <line n="10" style="italic">Or does it explode?</line>    
+    </stanza>
+  </text>
+</work>

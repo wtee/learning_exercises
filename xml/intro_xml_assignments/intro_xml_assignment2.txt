@@ -1,0 +1,7 @@
+1. //div1[@type="book"]
+2. //div2[@type="chapter"]
+3. //div2[@type="chapter"]/head[@type="title"]
+4. //div2[@type="chapter"][@n>="7" and @n<="10"]
+5. //language
+6. /TEI.2/text/body/div1[@type="book"][@n="6"]//head[@type="unitnum"]
+7. count(//note)
