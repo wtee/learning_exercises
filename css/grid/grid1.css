@@ -1,5 +1,5 @@
 .grid {
-    display: inline-grid;
+    display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 10px;
 }
@@ -17,5 +17,5 @@
 }
 
 .off3 {
-    grid-column-start: 3;
+    grid-column-start: 4;
 }
