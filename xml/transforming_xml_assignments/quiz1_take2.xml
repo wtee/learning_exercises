@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This code is expanded from code provide with class materials. -->
+<catalog>
+    <type>Image Catalog</type>
+    <image>
+        <id>entry.0001</id>
+        <preview>http://upload.wikimedia.org/wikipedia/commons/9/93/Waterhouse-sleep_and_his_half-brother_death-1874.jpg</preview>
+        <title>Hypnos and Thanatos</title>
+        <artist>John Willian Waterhouse</artist>
+        <country>United Kingdom</country>
+        <medium>Painting</medium>
+        <year>1874</year>
+        <subject>Greek Mythology</subject>
+    </image>
+    <image>
+        <id>entry.0002</id>
+        <preview>https://upload.wikimedia.org/wikipedia/commons/5/5c/Golubkina_Fog.JPG</preview>
+        <title>The Mist</title>
+        <artist>Anna Golubkina</artist>
+        <country>Russia</country>
+        <medium>Sculpture</medium>
+        <year>1899</year>
+        <subject>Weather Phenomenon</subject>
+    </image>
+</catalog>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This code is provided as part of course materials and was not authored by me. -->
+<catalog>
+    <type>Image Catalog</type>
+    <image>
+        <id>entry.0001</id>
+        <preview>http://upload.wikimedia.org/wikipedia/commons/9/93/Waterhouse-sleep_and_his_half-brother_death-1874.jpg</preview>
+        <title>Hypnos and Thanatos</title>
+        <artist>John Willian Waterhouse</artist>
+        <country>UK</country>
+        <medium>Painting</medium>
+        <year>1874</year>
+        <subject>Greek Mythology</subject>
+    </image>
+</catalog>
