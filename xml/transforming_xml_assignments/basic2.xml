@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- This document is class-provided material and not written by me. It is for use with
+     quiz3_1.xquery -->
+<!-- sample_1.xml -->
+<catalog source="chavezILS">
+    <type>Image Catalog</type>
+    <images>
+        <image>
+            <id>entry.0001</id>
+            <preview>http://en.wikipedia.org/wiki/File:A_Roman_Offering_-_JWW.jpg</preview>
+            <title>A Roman Offering</title>
+            <artist>John William Waterhouse</artist>
+            <country>UK</country>
+            <medium>Painting</medium>
+            <year>1890</year>
+            <subject>Roman Religion</subject>
+        </image>
+        <image>
+            <id>entry.0002</id>
+            <preview>http://upload.wikimedia.org/wikipedia/commons/9/93/Waterhouse-sleep_and_his_half-brother_death-1874.jpg</preview>
+            <title>Hypnos and Thanatos</title>
+            <artist>John William Waterhouse</artist>
+            <country>UK</country>
+            <medium>Painting</medium>
+            <year>1874</year>
+            <subject>Greek Mythology</subject>
+        </image>
+        <image>
+            <id>entry.0003</id>
+            <preview>http://en.wikipedia.org/wiki/File:Cleopatra_-_John_William_Waterhouse.jpg</preview>
+            <title>Cleopatra</title>
+            <artist>John William Waterhouse</artist>
+            <country>UK</country>
+            <medium>Painting</medium>
+            <year>1888</year>
+            <subject>Roman Political Life</subject>
+            <subject>Egyptian History</subject>
+        </image>
+        <image>
+            <id>entry.0004</id>
+            <preview>http://en.wikipedia.org/wiki/File:Waterhouse-Diogenes.jpg</preview>
+            <title>Diogenes</title>
+            <artist>John William Waterhouse</artist>
+            <country>UK</country>
+            <medium>Painting</medium>
+            <year>1882</year>
+            <subject>Greek Philosophers</subject>
+        </image>
+        <image>
+            <id>entry.0005</id>
+            <preview>http://en.wikipedia.org/wiki/File:WATERHOUSE_-_Ulises_y_las_Sirenas_(National_Gallery_of_Victoria,_Melbourne,_1891._Óleo_sobre_lienzo,_100.6_x_202_cm).jpg</preview>
+            <title>Ulysses and the Sirens</title>
+            <artist>John William Waterhouse</artist>
+            <country>UK</country>
+            <medium>Painting</medium>
+            <year>1891</year>
+            <subject>Greek Mythology</subject>
+            <subject>Homeric Epic</subject>
+        </image>
+        <image>
+            <id>entry.0006</id>
+            <preview>http://en.wikipedia.org/wiki/File:Jason_and_Medea_-_John_William_Waterhouse.jpg</preview>
+            <title>Jason and Medea</title>
+            <artist>John William Waterhouse</artist>
+            <country>UK</country>
+            <medium>Painting</medium>
+            <year>1907</year>
+            <subject>Greek Mythology</subject>
+            <subject>Euripidean Tragedy</subject>
+        </image>
+        <image>
+            <id>entry.0007</id>
+            <preview>http://en.wikipedia.org/wiki/File:John_William_Waterhouse_-_The_Remorse_of_the_Emperor_Nero_after_the_Murder_of_his_Mother.JPG</preview>
+            <title>The Remorse of the Emperor Nero after the Murder of his Mother</title>
+            <artist>John William Waterhouse</artist>
+            <country>UK</country>
+            <medium>Painting</medium>
+            <year>1878</year>
+            <subject>Julio-Claudian Emperors</subject>
+            <subject>Roman Political Life</subject>
+        </image>
+        <image>
+            <id>entry.0008</id>
+            <preview>http://en.wikipedia.org/wiki/File:JohnWilliamWaterhouse-PenelopeandtheSuitors(1912).jpg</preview>
+            <title>Penelope and the Suitors</title>
+            <artist>John William Waterhouse</artist>
+            <country>UK</country>
+            <medium>Painting</medium>
+            <year>1912</year>
+            <subject>Egyptian History</subject>
+        </image>
+        <image>
+            <id>entry.0009</id>
+            <preview>http://en.wikipedia.org/wiki/File:John_William_Waterhouse_-_Magic_Circle.JPG</preview>
+            <title>Magic Circle</title>
+            <artist>John William Waterhouse</artist>
+            <country>UK</country>
+            <medium>Painting</medium>
+            <year>1886</year>
+            <subject>Magic</subject>
+        </image>
+    </images>
+</catalog>
