@@ -7,5 +7,5 @@ working-storage section.
 01 newline  pic x(1)  value x'0a'. 
 
 procedure division.
-display "Hello, " name "! " newline "Thanks for inventing COBOL.".
+display "Hello, " name "! " newline "Thanks for making COBOL possible.".
 stop run.
