@@ -1,0 +1,63 @@
+.insert {
+    background-color: #6bb087;
+}
+.replace {
+    background-color: #f5ef95;
+}
+
+.delete {
+    background-color: #dba4c4;
+}
+
+td {
+    padding:0.25rem 1rem;
+    max-width: 30rem;
+    font-size:1.25rem;
+}
+
+th {
+    font-size:1.75rem;
+}
+
+.from1,
+.from2,
+.from3 {
+    font-size: 1.5rem;
+}
+
+.from1 {
+    text-decoration: underline;
+}
+
+.from2 {
+    font-weight: bold;    
+}
+
+.from3 {
+    font-style: italic;
+}
+
+
+
+
+
+
+/*
+
+blue 1-2 yellow
+orange 2-3 yellow
+purple 1-3 purple
+
+green 1-2 blue
+red 2-3 orange
+purple 1-3 purple
+
+yellow 1-2 green
+orange 2-3 yellow
+purple 1-3 purple
+
+1 green
+2 yellow
+3 
+
+*/
