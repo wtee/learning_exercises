@@ -1,0 +1,21 @@
+(defun two-in-list-add-to (num-list num)
+  "Tests if two numbers in a list add up to a given number.
+
+   Args:
+      - num-list (list): The list of integers to test.
+      - num (integer): The integer to test.
+
+   Returns: nil if no two numbers in the list add up to num
+            otherwise returns the two numbers that add up
+            to num.
+
+   Example:
+   ``(two-in-list-add-to ('(1 2 3) 5))``"
+
+  (if (not num-list)
+      nil
+      (let ((find-me (- num (first num-list))))
+        (if (member find-me (rest num-list))
+            (cons (first num-list) (member find-me (rest num-list)))
+            (two-in-list-add-to ((rest num-list) num))))))
+
