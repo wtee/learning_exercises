@@ -17,5 +17,6 @@
             ((eql (char dna1 0) (char dna2 0))
              (distance (subseq dna1 1) (subseq dna2 1)))
             ;; Otherwise, the characters are different, so return 1 plus
-            ;; the result of calling distance on the remainder of the list.
+            ;; the result of calling distance on the remainder of the
+            ;; string.
             (t (+ 1 (distance (subseq dna1 1) (subseq dna2 1)))))))
