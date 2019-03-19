@@ -46,12 +46,10 @@ def two_in_list_add_to_recursive(num_list, num):
     -------
     bool
     """
-    print(num_list)
     if not num_list:
         return False
 
     to_find = num - num_list[0]
-    print(to_find)
     if to_find in num_list[1:]:
         return True
 
