@@ -4,6 +4,18 @@
   (:export #:response-for))
 (in-package #:bob)
 
+(defun all-caps-p (input)
+  (and (string= input (string-upcase input))
+       (not (string= input (string-downcase input)))))
+
+(defun last-char= (input test-char)
+  (if (< 0 (length input))
+      (char= (char input (- (length input) 1)) test-char)))
+
+(defun trim-whitespace (input)
+  (let ((whitespace '(#\Backspace #\Linefeed #\Newline #\Page #\Return #\Rubout #\Space #\Tab)))
+    (string-trim whitespace input))) 
+
 (defun response-for (input)
   (let ((clean-input (trim-whitespace input)))
     (cond
@@ -14,13 +26,3 @@
       ((last-char= clean-input #\?) "Sure.")
       (t "Whatever."))))
 
-(defun all-caps-p (input)
-  (and (string= input (string-upcase input))
-       (not (string= input (string-downcase input)))))
-
-(defun last-char= (input test-char)
-  (char= (char input (- (length input) 1)) test-char))
-
-(defun trim-whitespace (input)
-  (let ((whitespace '(#\Backspace #\Linefeed #\Newline #\Page #\Return #\Rubout #\Space #\Tab)))
-    (string-trim whitespace input))) 
