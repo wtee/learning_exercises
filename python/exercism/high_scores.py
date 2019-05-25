@@ -10,5 +10,4 @@ class HighScores(object):
         return self.sorted_scores[0]
 
     def personal_top_three(self):
-        return self.sorted_scores[0:3]
-
+        return self.sorted_scores[:3]
