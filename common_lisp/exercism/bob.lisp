@@ -4,25 +4,33 @@
   (:export #:response-for))
 (in-package #:bob)
 
-(defun all-caps-p (input)
-  (and (string= input (string-upcase input))
-       (not (string= input (string-downcase input)))))
+(defun trim-whitespace (input)
+  (let ((whitespace '(#\Backspace #\Linefeed #\Newline #\Page #\Return #\Rubout #\Space #\Tab)))
+    (string-trim whitespace input))) 
 
 (defun last-char= (input test-char)
   (if (< 0 (length input))
       (char= (char input (- (length input) 1)) test-char)))
 
-(defun trim-whitespace (input)
-  (let ((whitespace '(#\Backspace #\Linefeed #\Newline #\Page #\Return #\Rubout #\Space #\Tab)))
-    (string-trim whitespace input))) 
+(defun silent-treatment-p (input)
+  (= 0 (length input)))
+
+(defun yelling-p (input)
+  (and (string= input (string-upcase input))
+       (not (string= input (string-downcase input)))))
+
+(defun question-p (input)
+  (last-char= input #\?))
+
+(defun yelling-question-p (input)
+  (and (yelling-p input) (question-p input)))
 
 (defun response-for (input)
   (let ((clean-input (trim-whitespace input)))
     (cond
-      ((= 0 (length clean-input)) "Fine. Be that way!")
-      ((and (all-caps-p clean-input) (last-char= clean-input #\?))
-       "Calm down, I know what I'm doing!")
-      ((all-caps-p clean-input) "Whoa, chill out!")
-      ((last-char= clean-input #\?) "Sure.")
+      ((silent-treatment-p clean-input) "Fine. Be that way!")
+      ((yelling-question-p clean-input) "Calm down, I know what I'm doing!")
+      ((yelling-p clean-input) "Whoa, chill out!")
+      ((question-p clean-input) "Sure.")
       (t "Whatever."))))
 
